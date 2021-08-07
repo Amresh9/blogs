@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.span-c{
+font-size: 35px;
+font-family: 'Robster',cursive;
+color: red;
+
+}
+
+
+
+#myimage{
+width: 350px;
+height: 350px;
+border: 2px solid grey;
+border-radius: 50%;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.text-a-me{
+font-size: 20px !important;
+margin-left: 15px !important;
+
+}
+
+.my-intro{
+    font-size: 32px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row !important;
+    padding: 15px !important;
+}
+
+
+
+@media only screen and (max-width:987px){
+
+
+    .about-container{
+        display: flex;
+        flex-direction: column !important;
+        padding: 15px !important;
+    }
+
+    #myimage{
+margin-left: 60px !important;
+
+    }
+}

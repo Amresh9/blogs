@@ -1,0 +1,26 @@
+#c-title{
+    margin-top: 20px !important;
+    font-size:45px;
+    color: rgb(255, 1, 1);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    
+    }
+
+    #c-head,#c-para{
+        margin-left: 50px !important;
+    }
+
+    .address{
+font-size: 25px;
+     background-color: black;
+     color: white;
+padding: 50px !important;
+margin: 60px !important;
+    }
+
+    #c-i{
+       font-size: 35px;
+color: orangered;
+
+    }

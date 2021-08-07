@@ -1,0 +1,79 @@
+@media only screen and (max-width:987px){
+   
+   
+
+ .t-container{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-wrapper:hover{
+        background-color:orangered;
+        color: white;
+    transition: color 0.1s ease;
+    }
+
+    #logo:hover{
+        color: rgb(255, 255, 255);
+        }
+    
+    
+}
+
+
+@media only screen and (max-width:430px){
+   
+    
+
+   .s-container{
+
+display: flex !important;
+flex-direction: column !important;
+
+   } 
+   
+   .t-container{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+  .s-detail,.t-detail{
+
+        color: rgb(255, 255, 255);
+            font-size: 18px;
+            word-wrap: break-word;
+        padding-bottom: 15px !important;
+        margin-bottom: 15px !important;
+        }
+
+
+
+    #s-image-1, #t-image-1:hover{
+            transform: scale(1,1);
+            }
+            #s-image-2,  #t-image-2:hover{
+                transform: scale(1,1);
+                }
+                #s-image-3, #t-image-3:hover{
+                    transform: scale(1,1);
+                    }
+                    #s-image-4,  #t-image-4:hover{
+                        transform: scale(1,1);
+                        }
+            
+
+
+
+                     
+
+
+
+
+
+
+
+
+
+}

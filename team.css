@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#t-title{
+margin-top: 20px !important;
+font-size:45px;
+color: rgb(255, 1, 1);
+text-align: center;
+font-family: 'Bebas Neue', cursive;
+
+}
+
+.t-image{
+height: 250px;
+width: 250px;
+border-radius: 50%;
+border:5px solid rgb(255, 255, 255);
+background-size: cover;
+margin-left: 23px !important;
+margin-top: 20px !important;
+transition: all 0.2s;
+}
+.t-name{
+font-size: 30px;
+/* color: rgb(0, 0, 0); */
+/* align-items: center; */
+text-align: center;
+font-family:  cursive;
+color:rgb(255, 255, 255);
+float: left;
+position: relative;
+line-height: 20px;
+margin-top: 35px !important;
+padding-top: 25px !important;
+
+}
+.t-detail{
+
+color: rgb(255, 255, 255);
+    font-size: 18px;
+padding-bottom: 35px !important;
+margin-bottom: 25px !important;
+word-wrap: break-word;
+}
+.t-card-1{
+display: flex;
+flex-direction: column;
+    /* background-image:url("./images/13.jpg"); */
+    justify-content: space-around;
+    box-shadow: 5px 5px 15px 0.7;
+width: auto;
+text-align: center;
+}
+.t-container{
+    margin: 50px !important;
+    padding: 15px !important;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color: black;
+/* background-image:url("./images/13.jpg"); */
+
+}
+
+.t-card-1{
+
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 220px 110px 80px;
+    grid-template-areas: "image" "text" "stats";
+    font-family: 'Ubuntu',sans-serif;
+    border-radius: 18px;
+    /* background-image: linear-gradient(#9D95FF,#F76CB5,#FD8AA1); */
+    background-image: linear-gradient(#FC5C7D,#EF1D98,#536EFF);
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 0.9);
+    text-align: center;
+    margin: 20px !important;
+}
+
+
+/* hover section */
+#t-image-1:hover{
+transform: scale(2,2);
+}
+#t-image-2:hover{
+    transform: scale(2,2);
+    }
+    #t-image-3:hover{
+        transform: scale(2,2);
+        }
+        #t-image-4:hover{
+            transform: scale(2,2);
+            }
+
+        /* end of hover section */

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+#sk-title{
+    margin-top: 20px !important;
+    font-size:45px;
+    color: rgb(255, 1, 1);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    
+    }
+    .sk-container{
+    display: flex;
+    
+    flex-direction:column;
+    
+    
+    }
+
+
+
+.sk-content{
+display: flex;
+
+flex-direction:column;
+justify-content: space-between;
+align-content: space-between;
+text-align: center;
+
+}
+
+
+
+
+.sk-c-intro{
+margin-top: 20px;
+    font-size: 28px;
+color: purple;
+font-family: 'Lobster', cursive;
+}
+
+.sk-para{
+margin: 30px !important;
+    margin-top: 20px;
+}
+
+.grap-1{
+
+    display: flex;
+    flex-direction: column!important;
+
+    margin: 40px;
+}
+.sk-line-3{
+
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+
+    margin-right: 40px;
+}
+.sk-line-3:before{
+
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    /* background-color: crimson; */
+    background-color: rgb(234, 1, 255);
+}
+
+.g-t{
+    margin-left: 30px !important;
+    font-size:28px;
+}
+
+
+.sk-line-2{
+
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+
+    margin-right: 40px;
+}
+.sk-line-2:before{
+
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    left: 0;
+    top: 0;
+    /* background-color: crimson; */
+    background-color: rgb(234, 1, 255);
+}
+
+
+
+.sk-line-4{
+
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+
+    margin-right: 40px;
+}
+.sk-line-4:before{
+
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    top: 0;
+    /* background-color: crimson; */
+    background-color: rgb(234, 1, 255);
+}
+
+
+
+.sk-line-1{
+
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+
+    margin-right: 40px;
+}
+.sk-line-1:before{
+
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    top: 0;
+    background-color: rgb(234, 1, 255);
+}
+
+.sk-line-1,.sk-line-2,.sk-line-3,.sk-line-4{
+
+    margin: 30px !important;
+    margin-right: 150px !important;
+}
